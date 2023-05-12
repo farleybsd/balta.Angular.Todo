@@ -1,0 +1,8 @@
+# Instalacao CLI
+- npm install -g @angular/cli
+- ng --version
+
+# Criando uma nova Aplicacao
+- ng new todo
+? Add Angular routing : N
+? Stylesheet: css
