@@ -9,3 +9,6 @@
 
 # subindo Servidor
 - ng s
+
+# Copilando 
+ng build --prod
