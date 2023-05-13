@@ -6,3 +6,6 @@
 - ng new todo
 ? Add Angular routing : N
 ? Stylesheet: css
+
+# subindo Servidor
+- ng s
