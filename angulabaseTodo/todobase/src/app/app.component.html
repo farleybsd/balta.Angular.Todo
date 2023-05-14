@@ -1,0 +1,33 @@
+<h1 class="title animated jackInTheBox">Lista de Tarefas</h1>
+<ul class="animated flipInX"><!-- Ver Tarefas -->
+  <p class="text-center"><small>Você não tem nenhuma tarefa hoje!</small></p>
+  <li>  <!-- Todas Tarefas Cadastradas For-->
+    <!-- Titulo -->
+    <button><i class="far fa-trash-alt"></i></button> <!-- Remover Tarefa -->
+    <button><i class="far fa-check-circle"></i></button><!--Tarefa Done -->
+    <button><i class="fas fa-check-circle"></i></button> <!--Tarefa UnDone -->
+  </li>
+</ul>
+
+<div id="modal" class="animated flipInX"> <!--Modo Add -->
+  <h1 class="text-center">Nova Tarefa</h1>
+  <form> <!--Criando Formulario -->
+    <input type="text" placeholder="Título da Tarefa" maxlength="60"><br> <!--Campo Formulario -->
+    <small class="danger"> <!--Mostrar Mensagem -->
+      Este campo deve conter entre 3 e 60caracteres<br>
+    </small>
+    <p class="text-center">
+      <button class="button"><i class="far fa-save"></i> Salvar</button><!--Salvar -->
+    </p>
+  </form>
+  <br><br>
+</div>
+
+<button class="add-button animated fadeInUp button"> <!--Mostrar tarefa Cadastrada -->
+  <i class="fas fa-plus-circle"></i>
+  NOVA TAREFA
+</button>
+<button class="add-button animated fadeInUp button"><!--Modo Cadastrar Tarefa -->
+  <i class="fas fa-times"></i>
+  CANCELAR
+</button>
